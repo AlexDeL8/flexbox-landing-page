@@ -2,6 +2,10 @@
   font-family: sans-serif;
 }
 
+body {
+  margin: 0px;
+}
+
 nav {
   background-color: #1F2937;
   display: flex;
@@ -88,6 +92,23 @@ nav li {
   max-width: 150px;
   border: 4px solid #3882F6;
   border-radius: 15px;
+}
+
+.quote {
+  padding: 90px 110px;
+  background-color: #E5E7EB;
+}
+.quote .quote-text {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: lighter;
+  font-style: italic;
+  margin: 0px;
+}
+.quote .quote-author {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 0px;
 }
 
 /*# sourceMappingURL=styles.css.map */

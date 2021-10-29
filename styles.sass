@@ -18,6 +18,9 @@ $text-quote: 36px light italic $text-color-info
 *
     font-family: sans-serif
 
+body
+    margin: 0px
+
 nav
     background-color: $background-color-main
     display: flex
@@ -94,4 +97,20 @@ nav
         max-width: 150px
         border: 4px solid $color-button
         border-radius: 15px
+
+.quote
+    padding: 90px 110px
+    background-color: $background-color-quote
+
+    .quote-text
+        @include text(36px, $text-color-info, lighter)
+        font-style: italic
+        margin: 0px
+
+    .quote-author
+        text-align: right
+        font-weight: bold
+        margin-top: 0px
+
+        
         
