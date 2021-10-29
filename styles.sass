@@ -1,1 +1,71 @@
-// comment
+$background-color-main: #1F2937
+$background-color-quote: #E5E7EB
+$color-button: #3882F6
+
+$text-color-main: #F9FAF8
+$text-color-secondary: #E5E7EB
+$text-color-info: #1F2937
+
+@mixin text($font-size, $font-color)
+    font-size: $font-size
+    color: $font-color
+
+$text-main: 48px extra-bold $text-color-main
+$text-info: 36px extra-bold $text-color-info
+$text-quote: 36px light italic $text-color-info
+
+*
+    font-family: sans-serif
+
+nav
+    background-color: $background-color-main
+    display: flex
+    flex-direction: row
+    align-items: baseline
+    padding: 0px 100px
+
+    
+    #header-logo
+        @include text(24px, $text-color-main)
+        font-weight: bold
+
+    .header-links
+        list-style-type: none
+        display: flex
+        flex-direction: row
+        gap: 15px
+        margin-left: auto
+        margin-right: 10px
+
+    li
+        @include text(18px, $text-color-secondary)
+
+.signup-button
+    background-color: $color-button
+    color: $text-color-secondary
+    padding: 6px 25px
+    font-weight: bold
+    border-radius: 6px
+    border: none
+        
+.hero
+    background-color: $background-color-main
+    display: flex
+    flex-direction: row
+    padding: 100px 100px
+    gap: 100px
+
+    .main-text
+        @include text(48px, $text-color-main)
+        font-weight: bolder
+        margin: 0px
+
+    .secondary-text
+    @include text(18px, $text-color-secondary)
+
+    #hero-img
+        height: 300px
+        max-width: 400px
+        flex: 1 1 100%
+        background-color: grey
+    
