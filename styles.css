@@ -47,15 +47,17 @@ nav li {
   flex-direction: row;
   padding: 100px 100px;
   gap: 100px;
-  font-size: 18px;
-  color: #E5E7EB;
-  font-weight: normal;
 }
 .hero .main-text {
   font-size: 48px;
   color: #F9FAF8;
   font-weight: bolder;
   margin: 0px;
+}
+.hero .secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+  font-weight: normal;
 }
 .hero #hero-img {
   height: 300px;
@@ -109,6 +111,25 @@ nav li {
   text-align: right;
   font-weight: bold;
   margin-top: 0px;
+}
+
+.signup {
+  padding: 60px 100px;
+}
+.signup .signup-div {
+  background-color: #3882F6;
+  padding: 10px 40px;
+}
+
+footer {
+  background-color: #1F2937;
+  padding: 20px 100px;
+  text-align: center;
+}
+footer p {
+  font-size: 12px;
+  color: #E5E7EB;
+  font-weight: normal;
 }
 
 /*# sourceMappingURL=styles.css.map */

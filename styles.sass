@@ -63,7 +63,7 @@ nav
         margin: 0px
 
     .secondary-text
-    @include text(18px, $text-color-secondary)
+        @include text(18px, $text-color-secondary)
 
     #hero-img
         height: 300px
@@ -111,6 +111,22 @@ nav
         text-align: right
         font-weight: bold
         margin-top: 0px
+
+.signup
+    padding: 60px 100px
+    .signup-div
+        background-color: $color-button
+        padding: 10px 40px
+
+
+footer
+    background-color: $background-color-main
+    padding: 20px 100px
+    text-align: center
+
+    p
+        @include text(12px ,$text-color-secondary, normal) 
+        
 
         
         
