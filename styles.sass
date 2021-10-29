@@ -6,9 +6,10 @@ $text-color-main: #F9FAF8
 $text-color-secondary: #E5E7EB
 $text-color-info: #1F2937
 
-@mixin text($font-size, $font-color)
+@mixin text($font-size, $font-color, $weight: normal)
     font-size: $font-size
     color: $font-color
+    font-weight: $weight
 
 $text-main: 48px extra-bold $text-color-main
 $text-info: 36px extra-bold $text-color-info
@@ -26,8 +27,7 @@ nav
 
     
     #header-logo
-        @include text(24px, $text-color-main)
-        font-weight: bold
+        @include text(24px, $text-color-main, bold)
 
     .header-links
         list-style-type: none
@@ -56,8 +56,7 @@ nav
     gap: 100px
 
     .main-text
-        @include text(48px, $text-color-main)
-        font-weight: bolder
+        @include text(48px, $text-color-main, bolder)
         margin: 0px
 
     .secondary-text
@@ -69,3 +68,30 @@ nav
         flex: 1 1 100%
         background-color: grey
     
+.info
+    padding: 30px 100px
+
+    .info-panels
+        display: flex
+        flex-direction: row
+        justify-content: center
+        gap: 40px
+
+        .panel
+            align-self: center
+
+        p
+            text-align: center
+            max-width: 150px
+
+    #information-header
+        @include text(36px, $text-color-info, bolder)
+        text-align: center
+        margin: 20px
+
+    .panel-img
+        height: 150px
+        max-width: 150px
+        border: 4px solid $color-button
+        border-radius: 15px
+        

@@ -25,6 +25,7 @@ nav .header-links {
 nav li {
   font-size: 18px;
   color: #E5E7EB;
+  font-weight: normal;
 }
 
 .signup-button {
@@ -44,6 +45,7 @@ nav li {
   gap: 100px;
   font-size: 18px;
   color: #E5E7EB;
+  font-weight: normal;
 }
 .hero .main-text {
   font-size: 48px;
@@ -56,6 +58,36 @@ nav li {
   max-width: 400px;
   flex: 1 1 100%;
   background-color: grey;
+}
+
+.info {
+  padding: 30px 100px;
+}
+.info .info-panels {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+.info .info-panels .panel {
+  align-self: center;
+}
+.info .info-panels p {
+  text-align: center;
+  max-width: 150px;
+}
+.info #information-header {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: bolder;
+  text-align: center;
+  margin: 20px;
+}
+.info .panel-img {
+  height: 150px;
+  max-width: 150px;
+  border: 4px solid #3882F6;
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */
