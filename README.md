@@ -5,7 +5,6 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
-* [Screenshots](#screenshots)
 * [Room for Improvement](#room-for-imporovement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contacts)
@@ -15,16 +14,15 @@
 - This is the **Flexbox Sample Landing Page project** to practice what was learned in the **Flexbox** section of the **Foundations** portion in [The Odin Project](https://www.theodinproject.com/dashboard)
 
 ## Technologies Used
-
+- HTML, CSS, Flexbox
 
 ## Features
-
-
-## Screenshots
-
+- Responsive landing page utilizing Flexbox
 
 ## Room for Improvement
-
+- Replace generic text to match a real website/theme
+- Add reactive CSS for hovers/clicks
+- Hero div/section includes image carousel
 
 ## Acknowledgements
 - This project was inspired by and based on the courses provided by [The Odin Project](https://www.theodinproject.com/dashboard)
