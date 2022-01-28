@@ -12,6 +12,14 @@
 
 ## General Information
 - This is the **Flexbox Sample Landing Page project** to practice what was learned in the **Flexbox** section of the **Foundations** portion in [The Odin Project](https://www.theodinproject.com/dashboard)
+    - The sample page must include the following sections:
+        - Navbar/Header
+        - Hero
+        - Info Panels
+        - Quote
+        - Sign Up
+        - Footer
+    - The page must utilze Flexbox properly for elements to be spaced out and responsive
 - Visit the project: 🖥️[**Flexbox Sample Landing Page**](https://alexdel8.github.io/flexbox-landing-page/)
 
 ## Technologies Used
