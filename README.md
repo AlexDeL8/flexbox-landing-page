@@ -12,7 +12,7 @@
 
 ## General Information
 - This is the **Flexbox Sample Landing Page project** to practice what was learned in the **Flexbox** section of the **Foundations** portion in [The Odin Project](https://www.theodinproject.com/dashboard)
-- Visit the project: [**Flexbox Sample Landing Page**](https://alexdel8.github.io/flexbox-landing-page/)
+- Visit the project: 🖥️[**Flexbox Sample Landing Page**](https://alexdel8.github.io/flexbox-landing-page/)
 
 ## Technologies Used
 - HTML, CSS, Flexbox
